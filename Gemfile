@@ -41,6 +41,8 @@ group :development, :test do
   gem 'bootstrap-sass', '~> 3.2.0.2'
 
   gem 'searchkick', '~> 0.8.3'
+
+  gem 'letter_opener', github: 'ryanb/letter_opener'
   
 end
 
