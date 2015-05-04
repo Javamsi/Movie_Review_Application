@@ -8,9 +8,12 @@ class ReviewsController < ApplicationController
     @review = Review.new
   end
 
+  # GET /reviews/1/edit
   def edit
   end
 
+  # POST /reviews
+  # POST /reviews.json
   def create
     @review = Review.new(review_params)
     @review.user_id = current_user.id
@@ -37,6 +40,8 @@ class ReviewsController < ApplicationController
     end
   end
 
+  # DELETE /reviews/1
+  # DELETE /reviews/1.json
   def destroy
     @review.destroy
     redirect_to root_path
