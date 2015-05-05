@@ -23,6 +23,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'devise', '~> 3.4.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -43,8 +44,6 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
-  gem 'devise', '~> 3.4.0'
 
   gem 'paperclip', '~> 4.2.0'
 
